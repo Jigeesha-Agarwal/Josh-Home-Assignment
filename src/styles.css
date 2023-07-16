@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Navigation Bar */
+.menu_box{
+    background-color: #f6f7f9;
+    display: flex;
+    justify-content: space-around;
+     padding: 20px 0; 
+     /*  */
+  }
+
+  .menu_image{
+    margin-left: -100px;
+  }
+
+  .menu, .menu_image{
+    display: flex;
+  }
+
+  .home, .about, .pages, .contact, .blog, .subscribe{
+    margin-left: 30px
+  }
+ 
+  .home>a:hover, .about>a:hover, .pages>a:hover, .contact>a:hover, .blog>a:hover{
+    color: #ff7438;
+    text-decoration: underline;
+  }
+
+  a:link, a:visited{
+      color: black;
+  }
+
+  .menu_button{
+    margin-left: 18px;
+    color: #FFF;
+    background-color: #ff7438;
+    padding: 10px;
+    text-align: center;
+    border-radius: 2px;
+    width: 80px;  
+  }
+
+  a{
+      text-decoration: none;
+      color: white;
+  }
+
+  .subscribe:hover{
+      
+      text-decoration: none;
+      background-color: #e6865d;
+  }
+
+  /* Introduction Box */
+
+ .intro_box{
+    background-color: #f6f7f9;
+    height: 600px;
+    margin-left: 10px;
+    padding-left: 0px;
+  }
+
+  .intro_text{
+    padding-top: 100px;
+    margin-left: 100px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  /* p,h1{
+      padding: 20px;
+  } */
+
+  .button{
+    margin-left: 18px;
+    background-color: #ff7438;
+    padding: 10px;
+    text-align: center;
+    border-radius: 2px;
+    width: 80px; 
+  }
+
+
+  /* Blog Posts */
+  
+ .blog_boxs{
+      background-color: #f6f7f9;
+      display: flex;
+      /* padding-top: 20px;*/
+      margin-left: 30px;
+
+  }
+
+  .box{
+    border-radius: 5px;
+      background-color: white;
+     width:350px;
+     margin-left: 40px;
+    
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px; */
+    padding: 20px 20px 20px 20px;
+  }
+
+  .header{
+    border-left-style: solid;
+    border-left-color: coral;
+    margin-left: -20px;
+  }
+
+  h5{
+    display:inline;
+    float:left;
+    color: coral; 
+    padding-left: 13px;
+  }
+
+  .read_button{
+    border-style: solid;
+    border-color: coral;
+    width: 120px;
+    text-align: center;
+    font-size: small;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 0px 20px;
+  }
+
+  .arrow{
+      text-align: center;
+      margin-top: 1px;
+      margin-bottom: 30px;
+  }
+/* Weekly Update */
+
+p, .weekly{
+      margin: 0 auto;
+      text-align: center;
+     
+  }
+
+  .weekly_button{
+    color: #FFF;
+    height: 40px;
+    background-color: #ff7438;
+    border: none;
+    /* padding: 10px; */
+    text-align: center;
+    border-radius: 2px;
+    width: 100px;
+    margin: -6px;
+  }
+
+  .subscribe_container, input[type="email"] {
+    border: 1px solid #ccc;  
+    background-color: rgb(228, 227, 227);
+    border-color: rgb(228, 227, 227);
+    height: 40px;
+    width: 400px;
+  }
+/* Footer */
+.social_links{
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 90px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links{
+    display: flex;
+}
+
+a{
+    padding: 10px 10px;
+    border-radius: 50%;
+    
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+
+.partners{
+  
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+
+    margin-top: 50px;
+    text-align: center;
+}
+/* 
+  p{
+    color: rgb(187, 187, 187);
+  } */
+
+
+/* Instagram Feed */
+.feeds{
+      display: flex;
+      margin-left: 80px; 
+      margin-top: 50px;
+  }
+
+  .column{
+      display: flex;
+      flex-direction: column;
+      padding: 0px 0px;
+      margin: 0px 0px 0px -21px;
+  }
